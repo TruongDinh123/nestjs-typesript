@@ -13,7 +13,7 @@
 3. Ưu điểm của NestJS so với Express:
 
 - NestJS cung cấp rất nhiều thứ vượt trội hơn trong việc thiết kế API và sử dụng các controller.
-- Ngược lại Express.js sẽ giúp chúng ta linh hoạt hơn không việc thiết kế API nhưng sẽ không trạng bị cho chúng ta những
+- Ngược lại Express.js sẽ giúp chúng ta linh hoạt hơn trong việc thiết kế API nhưng sẽ không trạng bị cho chúng ta những
   công cụ như NestJS để tăng khả năng readability of our code.
 - Ưu điểm khác của NestJS là cung cấp các provides để xử lí các đối tượng Request và Response 1 cách linh hoạt như là:
   @Body() và @Params() sẽ giúp bạn improve trong việc readability of our code.
@@ -27,7 +27,7 @@
 
 6. Entity:
 
-- Entity là 1 class sẽ máp tới database table bằng cách sử dụng @Entoty() decorator
+- Entity là 1 class sẽ maps tới database table bằng cách sử dụng @Entity() decorator
 
 7 Repository:
  - Dùng để quản lí cụ thể các entity.
